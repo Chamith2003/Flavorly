@@ -1,6 +1,10 @@
+import Search from "./components/Search";
+
 function App() {
   return (
-    <div>Flavorly</div>
+    <div>
+      <Search/>
+    </div>
   );
 }
 
