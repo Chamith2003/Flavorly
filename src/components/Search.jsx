@@ -17,7 +17,7 @@ export default function Search({foodData, setFoodData}){
     }, [query])
     return (
         <div className={styles.searchContainer}>
-            <input type="text" value={query} onChange={(e) => setQuery(e.target.value)}/>
+            <input className={styles.input} type="text" value={query} onChange={(e) => setQuery(e.target.value)}/>
         </div>
     );
 }
