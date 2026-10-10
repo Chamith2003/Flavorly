@@ -1,4 +1,4 @@
-import FoodItem from "./FooItem";
+import FoodItem from "./FoodItem";
 
 export default function FoodList({foodData}){
     return (
